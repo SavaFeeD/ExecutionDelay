@@ -1,0 +1,28 @@
+{
+  "name": "execution-delay",
+  "version": "1.0.0",
+  "description": "Defer user input",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "npm list",
+    "build": "tsc",
+    "realise": "npm version patch && npm publish"
+  },
+  "repository": "https://github.com/SavaFeeD/ExecutionDelay.git",
+  "keywords": [
+    "typescript",
+    "delay",
+    "tasks",
+    "library"
+  ],
+  "author": "SavaFeeD",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
