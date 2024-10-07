@@ -2,7 +2,13 @@
 
 Defer user input
 
-## Model
+## How use
+
+```bash
+npm i execution-delay
+```
+
+### Model
 
 ```js
 /**
@@ -24,7 +30,7 @@ export declare class ExecutionDelay {
 }
 ```
 
-## Example
+### Example
 
 ```js
 import ExecutionDelay from 'execution-delay';
