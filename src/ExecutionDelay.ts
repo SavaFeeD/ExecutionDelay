@@ -30,7 +30,9 @@ export class ExecutionDelay {
     if (currentTask.timer === null) {
       currentTask.timer = createTimer(delay);
     } else {
-      clearTimeout(currentTask.timer);
+      if (!!String(currentTask?.timer).trim()) {
+        clearTimeout(currentTask?.timer);
+      }
       currentTask.timer = createTimer(delay);
     }
     
